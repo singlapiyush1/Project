@@ -5,7 +5,7 @@ char player = 'X';
 void Draw()
 {
 	system("cls");
-	cout << "Tic Tac Toe v1.0" << endl;
+	cout << "Tic Tac Toe " << endl;
 	for (int i = 0; i < 3; i++)
 	{
 		for (int j = 0; j < 3; j++)
@@ -110,6 +110,5 @@ int main()
 		}
 		TogglePlayer();
 	}
-	system("pause");
 	return 0;
 }
